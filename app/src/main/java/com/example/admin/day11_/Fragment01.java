@@ -17,6 +17,7 @@ public class Fragment01 extends Fragment{
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         TextView tv=new TextView(getActivity());
         tv.setText("一");
+
         return tv;
     }
 }
